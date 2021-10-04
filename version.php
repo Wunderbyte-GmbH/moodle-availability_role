@@ -20,13 +20,15 @@
  * @package    availability_role
  * @copyright  2015 Bence Laky, Synergy Learning UK <b.laky@intrallect.com>
  *             on behalf of Alexander Bias, Ulm University <alexander.bias@uni-ulm.de>
+ *             extended to coursecat- and global roles
+ *                 by Robert Schrenk, Center for Learningmanagement <robert.schrenk@lernmanagement.at>
  * @license    http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
  */
 
 defined('MOODLE_INTERNAL') || die();
 
 $plugin->component = 'availability_role';
-$plugin->version = 2021061300;
+$plugin->version = 2021100400;
 $plugin->release = 'v3.11-r1';
 $plugin->requires = 2021051700;
 $plugin->supported = [311, 311];
